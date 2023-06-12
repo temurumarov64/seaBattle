@@ -1,0 +1,81 @@
+body {
+    font-family: "Lucida Console";
+    font-size: 16px;
+    line-height: 3;
+    color: #e6e6e6;
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  
+  button {
+    font-size: 18px;
+    font-family: "Lucida Console";
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.2;
+    background-color: #5b9279ae;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #e6e6e6;
+  }
+  
+  .toolbar {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #00000037;
+    border-radius: 4px;
+  }
+  .difficultybar {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #00000037;
+    text-align: center;
+  }
+  
+  #gameArea {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 15px;
+  }
+  
+  #gameArea .pcGameArea,
+  #gameArea .userGameArea {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  
+  #gameArea .gameField {
+    margin: 15px 15px 0 0;
+    display: block;
+  }
+  
+  #gameArea .gameField div {
+    margin: -1px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #464a52e2; 
+    border: 1px solid #f5f5f5ce;
+    text-align: center;
+  }
+  
+  #gameArea .gameField .ship {
+    background-color: #adb4bfd6; 
+  }
+  
+  #gameArea .btn-container {
+    text-align: center; 
+    margin-bottom: 10px;
+  }
+  
